@@ -1,0 +1,21 @@
+Package: stochSIRreplication
+Title: Replication Package for Colaneri et al. (2025)
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Camilla", "Damian", email = "c.damian@vu.nl", role = c("aut", "cre")),
+    person("Katia", "Colaneri", role = "ctb"),
+    person("Ruediger", "Frey", role = "ctb"))
+Description: Replication package for the paper 'A filtering approach 
+    for statistical inference in a stochastic SIR model with an 
+    application to Covid-19 data'.
+License: GPL (>= 2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5.0)
+Imports:
+    truncnorm,
+    matrixStats,
+    purrr
+LazyData: true
